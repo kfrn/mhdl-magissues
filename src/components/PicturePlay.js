@@ -1,6 +1,6 @@
 import React from 'react'
 
-const PicturePlay = () => {
+const PicturePlayInfo = () => {
   return (
     <div className="info-box">
       <h5>Picture Play</h5>
@@ -12,4 +12,4 @@ const PicturePlay = () => {
   )
 }
 
-export default PicturePlay
+export default PicturePlayInfo
