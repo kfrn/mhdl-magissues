@@ -1,6 +1,29 @@
+/* BASICS */
+
 .App {
   max-width: 100%;
 }
+
+p {
+  font-size: 0.9em;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+/* HEADER */
+
+.header {
+  background-image: url('./images/mhdl_logo.png');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  margin: 2rem auto 0;
+  width: 150px;
+  height: 71px;
+}
+
+/* MAGAZINE INFO */
 
 .magazine-title {
   font-style: italic;
@@ -15,23 +38,14 @@
   padding: 2rem;
 }
 
-.header {
-  background-image: url('./images/mhdl_logo.png');
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  margin: 2rem auto 0;
-  max-width: 30%;
-  height: 120px;
-}
-
-p:last-child {
-  margin-bottom: 0;
-}
+/* MEDIA QUERIES */
 
 @media only screen and (min-width: 720px) {
   .App {
     max-width: 720px;
     margin: auto;
   }
-
+  p {
+    font-size: 1em;
+  }
 }
