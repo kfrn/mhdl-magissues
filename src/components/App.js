@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 const App = ({state, dispatch}) => {
+  console.log("In the main app Component: ", state.magIssues)
   return (
     <div className="App">
       <div className="App-header">
@@ -11,6 +12,9 @@ const App = ({state, dispatch}) => {
       </p>
       <p>
         {state.text}
+      </p>
+      <p>
+        The magIssues value is {state.magIssues}
       </p>
     </div>
   )

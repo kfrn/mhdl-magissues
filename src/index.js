@@ -9,11 +9,12 @@ import reducer from './redux/reducer'
 
 const root = document.getElementById('root')
 const store = createStore(reducer, devToolsEnhancer())
+const state = store.getState()
 
 store.subscribe( () => {
   render(
     <Provider store={store}>
-    <App state={store.getState()} dispatch={store.dispatch}/>
+    <App state={state} dispatch={store.dispatch}/>
     </Provider>,
     root
   )
