@@ -1,5 +1,6 @@
 {
   "version": "0.1.0",
+  "homepage": "https://kfrn.github.io/mhdl-pictureplay",
   "dependencies": {
     "clone": "^2.1.1",
     "react": "^15.4.2",
@@ -15,6 +16,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }

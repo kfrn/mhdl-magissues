@@ -2,7 +2,9 @@
 
 ##### Summary
 
-A page providing individual access to each issue of <i><a href="https://en.wikipedia.org/wiki/Picture_Play_(magazine)">Picture Play</a></i> magazine that has been scanned by the Media History Digital Library.
+A prototype webpage providing individual access to each issue of <i><a href="https://en.wikipedia.org/wiki/Picture_Play_(magazine)">Picture Play</a></i> magazine that has been scanned by the Media History Digital Library.
+
+See it live [here](https://kfrn.github.io/mhdl-pictureplay/)!
 
 ##### Background
 
