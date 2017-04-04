@@ -46,6 +46,21 @@ footer {
   text-align: center;
 }
 
+/* MAG ISSUE */
+
+.magazine-issue > p {
+  margin: 0 auto;
+}
+
+ /*temp!*/
+.magazine-issue {
+  border-color: blue;
+  border-style: solid;
+  border-width: 1px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
 /* MEDIA QUERIES */
 
 @media only screen and (min-width: 960px) {
