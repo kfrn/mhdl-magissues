@@ -11,7 +11,9 @@ const App = ({state}) => {
       <PicturePlayInfo />
       <div className='info-box'>
         <h5>Available Issues</h5>
-        {availIssues.map((issue, i) => <MagIssue key={i} props={issue} />)}
+        <div id='mag-issues'>
+          {availIssues.map((issue, i) => <MagIssue key={i} props={issue} />)}
+        </div>
       </div>
       <Footer />
     </div>

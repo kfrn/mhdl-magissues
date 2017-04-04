@@ -48,27 +48,37 @@ footer {
 
 /* MAG ISSUE */
 
-.magazine-issue > p {
-  margin: 0 auto;
+#mag-issues {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
- /*temp!*/
 .magazine-issue {
-  border-color: blue;
-  border-style: solid;
-  border-width: 1px;
+  display: inline;
+  max-width: 15%;
   margin: 0.5rem;
   padding: 0.5rem;
+}
+
+.magazine-issue > p {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 0.8em;
+  line-height: 1.25em;
+}
+
+.magazine-issue img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 /* MEDIA QUERIES */
 
 @media only screen and (min-width: 960px) {
   .App {
-    max-width: 70%;
+    max-width: 80%;
     margin: auto;
   }
-  /*p {
-    font-size: 1em;
-  }*/
 }

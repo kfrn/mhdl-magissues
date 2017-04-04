@@ -6,7 +6,7 @@ const MagIssue = ({props}) => {
   const dateString = getDateString(props.day, props.mo, props.year)
   return (
     <div className='magazine-issue'>
-      <img src={imgURL} alt={`Picture Play ${dateString}`}/>
+      <a href={props.startPage}><img src={imgURL} alt={`Picture Play ${dateString}`}/></a>
       <p>Vol {props.vol}, no. {props.number}</p>
       <p>{dateString}</p>
       <p><a href={props.startPage}>View issue</a></p>
