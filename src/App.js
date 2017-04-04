@@ -8,6 +8,11 @@ const App = ({state}) => {
     <div className="App">
       <div className='header'></div>
       <PicturePlay />
+      <div className='info-box'>
+        <p>testing</p>
+        <p>testing</p>
+        <p>testing</p>
+      </div>
     </div>
   )
 }

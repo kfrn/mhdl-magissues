@@ -4,6 +4,10 @@
   max-width: 100%;
 }
 
+h5 {
+  text-align: center;
+}
+
 p {
   font-size: 0.9em;
 }
@@ -23,13 +27,11 @@ p:last-child {
   height: 71px;
 }
 
-/* MAGAZINE INFO */
-
 .magazine-title {
   font-style: italic;
 }
 
-.magazine-info {
+.info-box {
   border-color: black;
   border-radius: 0.5rem;
   border-style: solid;
@@ -40,12 +42,12 @@ p:last-child {
 
 /* MEDIA QUERIES */
 
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 800px) {
   .App {
-    max-width: 720px;
+    max-width: 70%;
     margin: auto;
   }
-  p {
+  /*p {
     font-size: 1em;
-  }
+  }*/
 }
