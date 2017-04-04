@@ -1,6 +1,6 @@
 ### mhdl-pictureplay
 
-Editions of <i><a href="https://en.wikipedia.org/wiki/Picture_Play_(magazine">Picture Play</a></i> magazine.
+Editions of <i><a href="https://en.wikipedia.org/wiki/Picture_Play_(magazine)">Picture Play</a></i> magazine.
 
 
 Notes:
