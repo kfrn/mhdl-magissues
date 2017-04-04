@@ -1,7 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 const App = ({state, dispatch}) => {
-  console.log("In the main app Component: ", state.magIssues)
+  let firstObj = state.magIssues[0]
+  console.log(firstObj)
   return (
     <div className="App">
       <div className="App-header">
@@ -11,10 +12,7 @@ const App = ({state, dispatch}) => {
         To get started, edit <code>src/App.js</code> and save to reload.
       </p>
       <p>
-        {state.text}
-      </p>
-      <p>
-        The magIssues value is {state.magIssues}
+        Here are some things about the first object. BookID is {firstObj.bookID} and start page is {firstObj.startPage}.
       </p>
     </div>
   )

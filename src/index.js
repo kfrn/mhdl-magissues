@@ -1,23 +1,10 @@
 import React from 'react';
 import { render } from 'react-dom'
-import { createStore } from 'redux'
-import { Provider } from 'react-redux'
-import { devToolsEnhancer } from 'redux-devtools-extension'
-
 import App from './components/App';
-import reducer from './redux/reducer'
+import initialState from './initialState'
 
 const root = document.getElementById('root')
-const store = createStore(reducer, devToolsEnhancer())
-const state = store.getState()
 
-store.subscribe( () => {
-  render(
-    <Provider store={store}>
-    <App state={state} dispatch={store.dispatch}/>
-    </Provider>,
-    root
-  )
-})
-
-store.dispatch({type: 'INIT'})
+render (
+  <App state={initialState}/>, root
+)
