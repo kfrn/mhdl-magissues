@@ -1,0 +1,90 @@
+/* BASICS */
+
+.App {
+  max-width: 100%;
+}
+
+h5 {
+  text-align: center;
+}
+
+p {
+  font-size: 0.9em;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+.magazine-title {
+  font-style: italic;
+}
+
+.info-box {
+  border-color: black;
+  border-radius: 0.5rem;
+  border-style: solid;
+  border-width: 1px;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+/* HEADER */
+
+.header {
+  background-image: url('./images/mhdl_logo.png');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  height: 71px;
+  margin: 2rem auto 0;
+  width: 150px;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+}
+
+/* MAG ISSUE */
+
+#mag-issues {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.magazine-issue {
+  display: inline;
+  max-width: 40%;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.magazine-issue > p {
+  font-size: 0.8em;
+  line-height: 1.25em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.magazine-issue img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 960px) {
+  .App {
+    max-width: 80%;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .magazine-issue {
+    max-width: 15%;
+  }
+}
