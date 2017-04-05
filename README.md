@@ -1,12 +1,12 @@
 ## mhdl-pictureplay
 
-##### Summary
+#### Summary
 
 A prototype webpage providing individual access to each issue of <i><a href="https://en.wikipedia.org/wiki/Picture_Play_(magazine)">Picture Play</a></i> magazine that has been scanned by the Media History Digital Library.
 
 See it live [here](https://kfrn.github.io/mhdl-pictureplay/)!
 
-##### Background
+#### Background
 
 The [Media History Digital Library](http://mediahistoryproject.org/) is a project dedicated to digitizing historic books and magazines about film, broadcasting, and recorded sound for broad public access. The scanned materials are hosted on the [Internet Archive](http://archive.org).
 
@@ -23,6 +23,7 @@ The cover image JPEGs were generated using the scripts in [this repo](https://gi
    * While it should be possible to use the direct image link, this isn't 100% reliable as the URL is not static. It contains a server ID which may change.
       * **⮊** Figure out how to get around this!
 * The cover images were obtained using the scripts in [this repo](https://github.com/kfrn/mhdl-scripts).
+* There are a handful of double-ups of issues, because certain issues appear in two different bound volumes.
 
 ##### Dev notes
 
