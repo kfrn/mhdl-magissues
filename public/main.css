@@ -84,8 +84,13 @@ footer {
   }
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
   .magazine-issue {
     max-width: 17%;
+  }
+
+@media only screen and (min-width: 960px) {
+  .magazine-issue {
+    max-width: 12%;
   }
 }
