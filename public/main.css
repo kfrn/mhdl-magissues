@@ -43,6 +43,7 @@ p:last-child {
 /* FOOTER */
 
 footer {
+  padding-bottom: 2rem;
   text-align: center;
 }
 
